@@ -441,7 +441,7 @@ buildings:
     hub:
         deliver: Entregue
         toUnlock: para desbloquear
-        levelShortcut: LVL
+        levelShortcut: NVL
 
     belt:
         default:
@@ -487,15 +487,15 @@ buildings:
     cutter:
         default:
             name: &cutter Cortador
-            description: Corta as formas verticalmente e produz as duas metades. <strong>Se você usar apenas uma parte, não se esqueça de destruir a outra parte, ou ela irá parar a produção!</strong>
+            description: Corta as formas verticalmente e produz as duas metades. <strong>Se você usar apenas uma parte, não se esqueça de destruir a outra parte, ou a máquina irá parar de produzir!</strong>
         quad:
             name: Cortador (Quádruplo)
-            description: Corta as formas em quatro partes. <strong>Se você usar apenas uma parte, não se esqueça de destruir as outras, ou ela irá parar a produção!</strong>
+            description: Corta as formas em quatro partes. <strong>Se você usar apenas uma parte, não se esqueça de destruir as outras, ou a máquina irá parar de produzir!</strong>
 
     advanced_processor:
         default:
             name: &advanced_processor Inversor de Cor
-            description: Aceita uma cor ou forma e a inverte.
+            description: Pega uma cor ou forma e a inverte.
 
     rotater:
         default:
